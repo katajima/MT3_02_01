@@ -23,15 +23,16 @@ int WINAPI WinMain(HINSTANCE, HINSTANCE, LPSTR, int) {
 	//回転
 	Vector3 rotate{};
 	//カメラポジション
-	Vector3 cameraPosition{ 0.0f,15.9f,-61.49f };
+	Vector3 cameraPosition{ 0.0f,1.9f,-6.49f };
 	Vector3 cameraRotate{ 0.26f,0.0f,0.0f };
+
 
 	Sphere sphere{};
 	sphere.center = { 0.0f,0.0f,0.0f };
-	sphere.radius = { 4.0f };
+	sphere.radius = { 0.5f };
 	Sphere sphere2{};
-	sphere2.center = { 16.0f,6.0f,6.0f };
-	sphere2.radius = { 9.0f };
+	sphere2.center = { 2.0f,0.0f,2.0f };
+	sphere2.radius = { 0.5f };
 
 
 	bool flag = false;
